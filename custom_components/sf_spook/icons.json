@@ -1,0 +1,6 @@
+{
+  "services": {
+    "device_delete": "mdi:ghost-outline",
+    "entity_delete": "mdi:ghost-outline"
+  }
+}

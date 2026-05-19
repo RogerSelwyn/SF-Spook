@@ -1,0 +1,14 @@
+{
+  "domain": "sf_spook",
+  "name": "SF Spook",
+  "codeowners": ["@RogerSelwyn"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/RogerSelwyn/SF-Spook",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/RogerSelwyn/SF-Spook/issues",
+  "loggers": ["custom_components.sf_spook"],
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "v1.0.0"
+}

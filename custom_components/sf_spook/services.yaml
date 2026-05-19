@@ -1,0 +1,15 @@
+device_delete:
+  fields:
+    device_id:
+      example: bf28469e3d47abc4f42a61b2438aaa21
+      required: true
+      selector:
+        device:
+
+entity_delete:
+  fields:
+    entity_id:
+      example: device_tracker.iphone
+      required: true
+      selector:
+        entity:

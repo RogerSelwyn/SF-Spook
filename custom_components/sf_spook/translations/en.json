@@ -1,0 +1,24 @@
+{
+  "services": {
+    "device_delete": {
+      "name": "Delete a device",
+      "description": "Delete a specified device (does not delete associated entities)",
+      "fields": {
+        "device_id": {
+          "description": "ID of the device to be deleted",
+          "name": "Device ID"
+        }
+      }
+    },
+    "entity_delete": {
+      "name": "Delete an entity",
+      "description": "Delete a specified entity",
+      "fields": {
+        "entity_id": {
+          "description": "ID of the entity to be deleted",
+          "name": "Entity ID"
+        }
+      }
+    }
+  }
+}
