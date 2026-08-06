@@ -40,5 +40,3 @@ async def async_do_service_setup(hass: HomeAssistant):
         ENTITY_DELETE_SCHEMA,
         SupportsResponse.ONLY,
     )
-
-    return
