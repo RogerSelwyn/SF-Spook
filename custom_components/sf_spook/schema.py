@@ -1,8 +1,9 @@
 """Schema for SF Spook Integration."""
 
-import homeassistant.helpers.config_validation as cv
 import voluptuous as vol
+
 from homeassistant.const import ATTR_DEVICE_ID, ATTR_ENTITY_ID
+import homeassistant.helpers.config_validation as cv
 
 DEVICE_DELETE_SCHEMA = vol.Schema(
     {

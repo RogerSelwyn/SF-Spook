@@ -3,10 +3,7 @@
 # import logging
 from typing import Self
 
-from homeassistant.config_entries import (
-    CONN_CLASS_LOCAL_POLL,
-    ConfigFlow,
-)
+from homeassistant.config_entries import CONN_CLASS_LOCAL_POLL, ConfigFlow
 
 from .const import CONF_NAME, DOMAIN
 

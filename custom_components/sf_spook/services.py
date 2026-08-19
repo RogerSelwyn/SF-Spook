@@ -1,13 +1,12 @@
-"""SF Spook Services"""
+"""SF Spook Services."""
 
 from homeassistant.const import ATTR_DEVICE_ID, ATTR_ENTITY_ID
 from homeassistant.core import HomeAssistant, ServiceCall
-from homeassistant.helpers import device_registry as dr
-from homeassistant.helpers import entity_registry as er
+from homeassistant.helpers import device_registry as dr, entity_registry as er
 
 
 class SFSpookServices:
-    """SF Spook Services"""
+    """SF Spook Services."""
 
     hass: HomeAssistant
 
