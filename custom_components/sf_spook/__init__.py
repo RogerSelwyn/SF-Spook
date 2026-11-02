@@ -5,9 +5,7 @@ import logging
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant, SupportsResponse
 
-from .const import (
-    DOMAIN,
-)
+from .const import DOMAIN
 from .schema import DEVICE_DELETE_SCHEMA, ENTITY_DELETE_SCHEMA
 from .services import SFSpookServices
 

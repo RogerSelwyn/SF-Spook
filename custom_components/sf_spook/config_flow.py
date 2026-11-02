@@ -3,7 +3,7 @@
 # import logging
 from typing import Self
 
-from homeassistant.config_entries import CONN_CLASS_LOCAL_POLL, ConfigFlow
+from homeassistant.config_entries import ConfigFlow
 
 from .const import CONF_NAME, DOMAIN
 
@@ -14,7 +14,6 @@ class SFSpookConfigFlow(ConfigFlow, domain=DOMAIN):
     """Example config flow."""
 
     VERSION = 1
-    CONNECTION_CLASS = CONN_CLASS_LOCAL_POLL
 
     # def __init__(self):
     #     """Initiliase the configuration flow."""
