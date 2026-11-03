@@ -4,10 +4,14 @@ on:
   release:
     types: [published]
 
+permissions: {}
+
 jobs:
   release_zip_file:
     name: Prepare release asset
     runs-on: "ubuntu-latest"
+    permissions:
+      contents: write
     steps:
       - uses: "actions/checkout@v7"
       - name: Release Asset
@@ -20,6 +24,8 @@ jobs:
     name: Prepare release notes
     needs: release_zip_file
     runs-on: "ubuntu-latest"
+    permissions:
+      contents: write
     steps:
       - uses: "actions/checkout@v7"
       - name: Release Notes
