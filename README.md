@@ -10,8 +10,6 @@
 This integration enables:
 1. Adhoc deletion of devices and entities
 
-This project would not be possible without the wonderful [python-o365 project](https://github.com/O365/python-o365).
-
 ## [Buy Me A Beer 🍻](https://buymeacoffee.com/rogtp)
 I work on this integration because I like things to work well for myself and others. Please don't feel you are obligated to donate, but of course it is appreciated.
 
