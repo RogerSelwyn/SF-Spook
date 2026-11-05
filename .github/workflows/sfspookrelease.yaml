@@ -18,7 +18,7 @@ jobs:
         uses: "rogerselwyn/actions/update-requirements@main"
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          component: ms365_calendar
+          component: msf_spook
 
   release_zip_file:
     name: Prepare release asset
