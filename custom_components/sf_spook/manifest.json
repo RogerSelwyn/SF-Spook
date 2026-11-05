@@ -10,5 +10,5 @@
   "loggers": ["custom_components.sf_spook"],
   "requirements": [],
   "single_config_entry": true,
-  "version": "v1.0.0"
+  "version": "v1.0.1"
 }
